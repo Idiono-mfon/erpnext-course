@@ -1,0 +1,106 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-10-02 04:04:42.951333",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "first_name",
+  "currency",
+  "text",
+  "section_break_nkpct",
+  "markup",
+  "colorl",
+  "code",
+  "column_break_o5uqb",
+  "float",
+  "fold",
+  "image",
+  "todo"
+ ],
+ "fields": [
+  {
+   "fieldname": "first_name",
+   "fieldtype": "Data",
+   "label": "First Name"
+  },
+  {
+   "fieldname": "currency",
+   "fieldtype": "Currency",
+   "label": "Currency"
+  },
+  {
+   "fieldname": "text",
+   "fieldtype": "Text",
+   "label": "Text"
+  },
+  {
+   "fieldname": "section_break_nkpct",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "markup",
+   "fieldtype": "Text Editor",
+   "label": "Markup"
+  },
+  {
+   "fieldname": "colorl",
+   "fieldtype": "Color",
+   "label": "colorl"
+  },
+  {
+   "fieldname": "code",
+   "fieldtype": "Code",
+   "label": "code"
+  },
+  {
+   "fieldname": "column_break_o5uqb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "float",
+   "fieldtype": "Float",
+   "label": "float"
+  },
+  {
+   "fieldname": "fold",
+   "fieldtype": "Barcode",
+   "label": "fold"
+  },
+  {
+   "fieldname": "image",
+   "fieldtype": "Attach Image",
+   "label": "image"
+  },
+  {
+   "fieldname": "todo",
+   "fieldtype": "Link",
+   "label": "Todo",
+   "options": "ToDo"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-10-02 04:35:44.935979",
+ "modified_by": "Administrator",
+ "module": "Demo App",
+ "name": "Demo",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

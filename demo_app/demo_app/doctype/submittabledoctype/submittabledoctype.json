@@ -1,0 +1,58 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-10-02 11:26:44.339263",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "abc",
+  "cde",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "abc",
+   "fieldtype": "Data",
+   "label": "ABC"
+  },
+  {
+   "fieldname": "cde",
+   "fieldtype": "Data",
+   "label": "CDE"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "SubmittableDoctype",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2023-10-02 11:26:44.339263",
+ "modified_by": "Administrator",
+ "module": "Demo App",
+ "name": "SubmittableDoctype",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

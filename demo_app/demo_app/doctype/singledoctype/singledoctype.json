@@ -1,0 +1,53 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-10-02 11:32:58.564326",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "abc",
+  "cde",
+  "children"
+ ],
+ "fields": [
+  {
+   "fieldname": "abc",
+   "fieldtype": "Data",
+   "label": "ABC"
+  },
+  {
+   "fieldname": "cde",
+   "fieldtype": "Data",
+   "label": "CDE"
+  },
+  {
+   "fieldname": "children",
+   "fieldtype": "Table",
+   "label": "children",
+   "options": "childDoctype"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2023-10-02 11:58:51.162844",
+ "modified_by": "Administrator",
+ "module": "Demo App",
+ "name": "SingleDoctype",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

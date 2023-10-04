@@ -1,0 +1,127 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "SERV.####",
+ "creation": "2023-10-03 05:29:33.764772",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "check",
+  "client_side_doc",
+  "first_name",
+  "middle_name",
+  "last_name",
+  "full_name",
+  "column_break_1e69j",
+  "email",
+  "moble_no",
+  "dob",
+  "age",
+  "section_break_nqfjv",
+  "family_members",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "default": "0",
+   "fieldname": "check",
+   "fieldtype": "Check",
+   "label": "check"
+  },
+  {
+   "fieldname": "first_name",
+   "fieldtype": "Data",
+   "label": "First Name"
+  },
+  {
+   "fieldname": "middle_name",
+   "fieldtype": "Data",
+   "label": "Middle Name"
+  },
+  {
+   "fieldname": "last_name",
+   "fieldtype": "Data",
+   "label": "Last Name"
+  },
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "label": "Full Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_1e69j",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email"
+  },
+  {
+   "fieldname": "moble_no",
+   "fieldtype": "Data",
+   "label": "Mobile Nos"
+  },
+  {
+   "fieldname": "dob",
+   "fieldtype": "Date",
+   "label": "DOB"
+  },
+  {
+   "fieldname": "age",
+   "fieldtype": "Int",
+   "label": "Age"
+  },
+  {
+   "fieldname": "section_break_nqfjv",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "family_members",
+   "fieldtype": "Table",
+   "label": "Family Members",
+   "options": "Family Members"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "ServerSide Scripting Doctype",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "client_side_doc",
+   "fieldtype": "Link",
+   "label": "Client side doc",
+   "options": "ClientSideScriptingDoctype"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2023-10-03 06:17:03.320346",
+ "modified_by": "Administrator",
+ "module": "Demo App",
+ "name": "ServerSide Scripting Doctype",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

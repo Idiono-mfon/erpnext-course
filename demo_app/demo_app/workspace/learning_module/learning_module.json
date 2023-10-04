@@ -1,0 +1,86 @@
+{
+ "cards_label": "Link crads",
+ "category": "Modules",
+ "charts": [],
+ "creation": "2023-10-02 12:15:42.202496",
+ "developer_mode_only": 0,
+ "disable_user_customization": 0,
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "extends_another_page": 0,
+ "hide_custom": 0,
+ "icon": "",
+ "idx": 0,
+ "is_default": 0,
+ "is_standard": 1,
+ "label": "Learning Module",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Norma Doctype",
+   "link_to": "NormalDoctype",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Submittable Doctype",
+   "link_to": "SubmittableDoctype",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Normal Doctype",
+   "link_to": "NormalDoctype",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2023-10-02 12:33:11.210213",
+ "modified_by": "Administrator",
+ "module": "Demo App",
+ "name": "Learning Module",
+ "owner": "Administrator",
+ "pin_to_bottom": 0,
+ "pin_to_top": 0,
+ "shortcuts": [
+  {
+   "doc_view": "",
+   "label": "Normal Doctype",
+   "link_to": "NormalDoctype",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "Full Doctype",
+   "link_to": "Demo",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "Naming Doctype",
+   "link_to": "NamingSeriesDoctype",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "Property Doctype",
+   "link_to": "PropertyDoc",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "Chart",
+   "link_to": "Dashboard Chart",
+   "type": "DocType"
+  }
+ ],
+ "shortcuts_label": "Your Shortcut"
+}
